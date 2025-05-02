@@ -12,6 +12,7 @@ Objectives
 3. Exploratory Data Analysis (EDA): Perform basic exploratory data analysis to understand the dataset.
 4. Business Analysis: Use SQL to answer specific business questions and derive insights from the sales data.
 
+
 1. Database Setup
 
 Database Creation: The project starts by creating a database named  'Online_Sales'.
@@ -24,12 +25,14 @@ Record Count: Determine the total number of records in the dataset.
 Customer Count: Find out how many unique customers are in the dataset.
 Null Value Check: Check for any null values in the dataset and delete records with missing data.
 
+
 3. Findings
 
 Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
 High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
 Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
 Customer Insights: The analysis identifies the top-spending customers and the most popular product categories.
+
 
 4. Reports
 

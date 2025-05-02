@@ -22,6 +22,7 @@ CREATE DATABASE Online_Sales;
 USE Online_Sales;
 
 -- Create Table
+'''sql
 CREATE TABLE retail_sales
             (
                 transaction_id INT PRIMARY KEY,	
@@ -36,3 +37,4 @@ CREATE TABLE retail_sales
                 cogs FLOAT, 
                 total_sale FLOAT 
             );
+'''

@@ -17,24 +17,22 @@ Objectives
 Database Creation: The project starts by creating a database named  'Online_Sales'.
 Table Creation: A table named retail_sales is created to store the sales data. The table structure includes columns for transaction ID, sale date, sale time, customer ID, gender, age, product category, quantity sold, price per unit, cost of goods sold (COGS), and total sale amount.
 
-CREATE DATABASE Online_Sales;
 
-USE Online_Sales;
+2. Data Exploration & Cleaning
 
--- Create Table
-'''sql
-CREATE TABLE retail_sales
-            (
-                transaction_id INT PRIMARY KEY,	
-                sale_date DATE,	 
-                sale_time TIME,	
-                customer_id	INT, 
-                gender VARCHAR(15), 
-                age	INT, 
-                category VARCHAR(15), 
-                quantity INT, 
-                price_per_unit FLOAT, 
-                cogs FLOAT, 
-                total_sale FLOAT 
-            );
-'''
+Record Count: Determine the total number of records in the dataset.
+Customer Count: Find out how many unique customers are in the dataset.
+Null Value Check: Check for any null values in the dataset and delete records with missing data.
+
+3. Findings
+
+Customer Demographics: The dataset includes customers from various age groups, with sales distributed across different categories such as Clothing and Beauty.
+High-Value Transactions: Several transactions had a total sale amount greater than 1000, indicating premium purchases.
+Sales Trends: Monthly analysis shows variations in sales, helping identify peak seasons.
+Customer Insights: The analysis identifies the top-spending customers and the most popular product categories.
+
+4. Reports
+
+Sales Summary: A detailed report summarizing total sales, customer demographics, and category performance.
+Trend Analysis: Insights into sales trends across different months and shifts.
+Customer Insights: Reports on top customers and unique customer counts per category.

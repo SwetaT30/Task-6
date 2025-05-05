@@ -1,9 +1,10 @@
-# Task-6
-Sales Trend Analysis Using Aggregations
+# Sales Trend Analysis Using Aggregations
 
-Project Name : Retail Sales Analysis
+# Project Name : Retail Sales Analysis
 
 This project is designed to demonstrate SQL skills and techniques typically used by data analysts to explore, clean, and analyze retail sales data. The project involves setting up a retail sales database, performing exploratory data analysis (EDA), and answering specific business questions through SQL queries.
+
+Tools Used : MySQL Workbench
 
 Objectives
 
